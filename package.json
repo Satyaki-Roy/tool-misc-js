@@ -1,0 +1,24 @@
+{
+  "name": "tooling-and-misc",
+  "version": "1.0.0",
+  "description": "practicing tooling and misc in JS",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "npx eslint .",
+    "eslint-fix": "npx eslint . --fix",
+    "prettier": "npx prettier --write .",
+    "prettier-check": "npx prettier --check ."
+  },
+  "keywords": [],
+  "author": "Satyaki Roy",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier": "2.1.1"
+  }
+}
