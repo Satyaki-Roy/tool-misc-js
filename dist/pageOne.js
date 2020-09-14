@@ -81,19 +81,19 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/pageOne/index.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
+/***/ "./src/pageOne/index.js":
+/*!******************************!*\
+  !*** ./src/pageOne/index.js ***!
+  \******************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("console.log(undefined !== null && undefined !== void 0 ? undefined : \"Hello Right\");\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("console.log(undefined !== null && undefined !== void 0 ? undefined : \"Hello Page 1\");\n\n//# sourceURL=webpack:///./src/pageOne/index.js?");
 
 /***/ })
 

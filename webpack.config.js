@@ -29,6 +29,11 @@ const workboxPlugin = require("workbox-webpack-plugin");
 module.exports = {
   mode: "development",
 
+  entry: {
+    pageOne: './src/pageOne/index.js',
+    pageTwo: './src/pageTwo/index.js'
+  },
+
   plugins: [
     new webpack.ProgressPlugin(),
     new workboxPlugin.GenerateSW({
